@@ -3,7 +3,7 @@ import { SalesPerson } from './sales-person';
 
 @Component({
   selector: 'app-sales-person-list',
-  templateUrl: './sales-person-list.component.html',
+  templateUrl: './sales-person-list-bootstrap.component.html',
   styleUrls: ['./sales-person-list.component.css']
 })
 export class SalesPersonListComponent implements OnInit {
@@ -14,7 +14,7 @@ export class SalesPersonListComponent implements OnInit {
     new SalesPerson("Oguz","Aslan","oguzaslan@hotmail.com",5000),
     new SalesPerson("Ali","Veli","deneme1@hotmail.com",4000),
     new SalesPerson("Ayse","Fatma","deneme2@hotmail.com",3000),
-    new SalesPerson("Zeynep","Merve","deneme3@hotmail.com",2000),
+    new SalesPerson("Zeynep","Merve","deneme3@hotmail.com",200),
   ];
 
   constructor() { }
